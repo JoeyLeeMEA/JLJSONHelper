@@ -5,6 +5,7 @@
 //  Copyright (c) 2015 Joey L. All rights reserved.
 //
 //  v1.0.0
+//  https://github.com/buhikon/JLJSONHelper
 //
 
 #import <Foundation/Foundation.h>

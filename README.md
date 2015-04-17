@@ -1,5 +1,7 @@
 # JLJSONHelper v1.0.0
 
+JLJSONHelper is a helper class based on NSJSONSerialization provided by Apple.
+
 ## Install
 
 Copy below files into your project. 
