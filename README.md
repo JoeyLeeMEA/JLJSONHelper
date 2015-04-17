@@ -4,8 +4,8 @@
 
 Copy below files into your project. 
 ```
-JLDrawerController.h
-JLDrawerController.m
+JLJSONHelper.h
+JLJSONHelper.m
 ```
 
 
