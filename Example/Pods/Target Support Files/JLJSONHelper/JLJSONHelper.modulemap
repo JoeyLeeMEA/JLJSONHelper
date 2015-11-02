@@ -1,0 +1,6 @@
+framework module JLJSONHelper {
+  umbrella header "JLJSONHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

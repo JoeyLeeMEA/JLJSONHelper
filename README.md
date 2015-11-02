@@ -1,68 +1,29 @@
-# JLJSONHelper v1.0.0
+# JLJSONHelper
 
-JLJSONHelper is a helper class based on NSJSONSerialization provided by Apple.
-
-## Install
-
-Copy below files into your project. 
-```
-JLJSONHelper.h
-JLJSONHelper.m
-```
-
+[![CI Status](http://img.shields.io/travis/Joey L./JLJSONHelper.svg?style=flat)](https://travis-ci.org/Joey L./JLJSONHelper)
+[![Version](https://img.shields.io/cocoapods/v/JLJSONHelper.svg?style=flat)](http://cocoapods.org/pods/JLJSONHelper)
+[![License](https://img.shields.io/cocoapods/l/JLJSONHelper.svg?style=flat)](http://cocoapods.org/pods/JLJSONHelper)
+[![Platform](https://img.shields.io/cocoapods/p/JLJSONHelper.svg?style=flat)](http://cocoapods.org/pods/JLJSONHelper)
 
 ## Usage
 
-1. import header file `#import "JLJSONHelper.h"`
-2. just call class methods :D
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-* String -> JSON Object
-```
-+ (id)JSONObjectFromString:(NSString *)jsonString;
-```
+## Requirements
 
-* JSON Object -> String
-```
-+ (NSString *)stringFromJSONObject:(id)json;
-+ (NSString *)stringPrettyPrintedFromJSONObject:(id)json;
-```
+## Installation
 
+JLJSONHelper is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-## Example result of stringFromJSONObject
-```
-{"glossary":{"title":"example glossary","GlossDiv":{"title":"S","GlossList":{"GlossEntry":{"SortAs":"SGML","Abbrev":"ISO 8879:1986","GlossTerm":"Standard Generalized Markup Language","GlossDef":{"GlossSeeAlso":["GML","XML"],"para":"A meta-markup language, used to create markup languages such as DocBook."},"GlossSee":"markup","ID":"SGML","Acronym":"SGML"}}}}}
+```ruby
+pod "JLJSONHelper"
 ```
 
-## Example result of stringPrettyPrintedFromJSONObject
-```
-{
-  "glossary" : {
-    "title" : "example glossary",
-    "GlossDiv" : {
-      "title" : "S",
-      "GlossList" : {
-        "GlossEntry" : {
-          "SortAs" : "SGML",
-          "Abbrev" : "ISO 8879:1986",
-          "GlossTerm" : "Standard Generalized Markup Language",
-          "GlossDef" : {
-            "GlossSeeAlso" : [
-              "GML",
-              "XML"
-            ],
-            "para" : "A meta-markup language, used to create markup languages such as DocBook."
-          },
-          "GlossSee" : "markup",
-          "ID" : "SGML",
-          "Acronym" : "SGML"
-        }
-      }
-    }
-  }
-}
-```
+## Author
 
+Joey L., slarin@gmail.com
 
 ## License
 
-Licensed under the MIT license. You can use the code in your commercial and non-commercial projects.
+JLJSONHelper is available under the MIT license. See the LICENSE file for more info.

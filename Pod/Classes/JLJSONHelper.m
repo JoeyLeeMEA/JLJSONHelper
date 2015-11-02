@@ -12,6 +12,8 @@
 
 @implementation JLJSONHelper
 
+#pragma mark - public methods
+
 + (id)JSONObjectFromString:(NSString *)jsonString
 {
     if(!jsonString) return nil;
@@ -30,6 +32,13 @@
 {
     return [JLJSONHelper stringFromJSONObject:json options:NSJSONWritingPrettyPrinted];
 }
++ (NSString *)stringPrettyPrintedFromString:(NSString *)jsonString
+{
+    id JSONObj = [JLJSONHelper JSONObjectFromString:jsonString];
+    return [JLJSONHelper stringPrettyPrintedFromJSONObject:JSONObj];
+}
+
+#pragma mark - private methods
 
 + (NSString *)stringFromJSONObject:(id)json options:(NSJSONWritingOptions)opt
 {
@@ -38,11 +47,11 @@
     NSData *data = [JLJSONHelper dataFromJSONObject:json options:opt];
     return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 }
-
 + (NSData *)dataFromJSONObject:(id)json options:(NSJSONWritingOptions)opt
 {
     if(!json) return nil;
     return [NSJSONSerialization dataWithJSONObject:json options:opt error:nil];
 }
+
 
 @end

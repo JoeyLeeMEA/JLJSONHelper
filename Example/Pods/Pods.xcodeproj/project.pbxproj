@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22F75520246AC6DA1FA53482DC0F8C4F /* JLJSONHelper.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 55DB5EB89F3F83A54B79242D07D6926C /* JLJSONHelper.bundle */; };
+		2D93BCC84348237A2499DFE232CB0708 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		3B1B43BCDBC58397D3C0B86B4EC9EFE7 /* JLJSONHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 938641F2BCEB4962DB7CBBCECD7D0851 /* JLJSONHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64BDBE4D1BE726F100C0FA39 /* JLJSONHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 64BDBE4B1BE726F100C0FA39 /* JLJSONHelper.h */; };
+		64BDBE4E1BE726F100C0FA39 /* JLJSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BDBE4C1BE726F100C0FA39 /* JLJSONHelper.m */; };
+		777820A56130BB196841162F83BCDDAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A5B1B5F5CB685EF7F83EB5E67E79FF51 /* Pods-JLJSONHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6270118DF3C3528EF54E5F19D5403A2 /* Pods-JLJSONHelper_Tests-dummy.m */; };
+		C69B9CF11FC2E1DB1F21406D3E5F0E12 /* Pods-JLJSONHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FEF2FC110458E7C9C58B08A38CF348 /* Pods-JLJSONHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2DD47CCCEAFBBFD10F24D5CC57765AB /* JLJSONHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AAAE5EC3F30207DD9BCBAA8137D367 /* JLJSONHelper-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		592C0678F2F7F96BAD3E64F834201292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E12B3354B76CD43843F7A74AF2A2DCF9;
+			remoteInfo = JLJSONHelper;
+		};
+		B2F2CB3961F3A0972943C559AD77697A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7BA8285B4085EC9E8B05660FEF92D4;
+			remoteInfo = "JLJSONHelper-JLJSONHelper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C3056B73651E24DA5CB03C410542A98 /* Pods_JLJSONHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLJSONHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		206F1E0D159A2C8A6CFB4C0803FEB28C /* Pods-JLJSONHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLJSONHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		33147D4B1CB8AF85877B660663088007 /* Pods-JLJSONHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLJSONHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35C6D327A89D1F16006E4CA80D47A698 /* JLJSONHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLJSONHelper-prefix.pch"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		490EB97C99D5B7ADEDC1D874C3B3F4AC /* Pods-JLJSONHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JLJSONHelper_Tests.modulemap"; sourceTree = "<group>"; };
+		55AAAE5EC3F30207DD9BCBAA8137D367 /* JLJSONHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLJSONHelper-dummy.m"; sourceTree = "<group>"; };
+		55DA4ABA64C63A700B99C62E67E9CC80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DB5EB89F3F83A54B79242D07D6926C /* JLJSONHelper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLJSONHelper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		57710DA740519A2BA0E0A9456F810153 /* Pods-JLJSONHelper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLJSONHelper_Tests-resources.sh"; sourceTree = "<group>"; };
+		64BDBE4B1BE726F100C0FA39 /* JLJSONHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLJSONHelper.h; sourceTree = "<group>"; };
+		64BDBE4C1BE726F100C0FA39 /* JLJSONHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLJSONHelper.m; sourceTree = "<group>"; };
+		6644F8250B94C33A69C96EAFEA6E5C88 /* Pods-JLJSONHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLJSONHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		89FEF2FC110458E7C9C58B08A38CF348 /* Pods-JLJSONHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLJSONHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		938641F2BCEB4962DB7CBBCECD7D0851 /* JLJSONHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLJSONHelper-umbrella.h"; sourceTree = "<group>"; };
+		B1FEF220A30CCB7B8CF708B5B78D4305 /* Pods-JLJSONHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLJSONHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B6270118DF3C3528EF54E5F19D5403A2 /* Pods-JLJSONHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLJSONHelper_Tests-dummy.m"; sourceTree = "<group>"; };
+		B8CCD8CA80D56F86D0EF595DD7D0F11C /* Pods-JLJSONHelper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLJSONHelper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C065B2A14FD459F3478E2003F496966D /* JLJSONHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JLJSONHelper.modulemap; sourceTree = "<group>"; };
+		C1559F531BAB6C9E726BCC5042AAA5CF /* JLJSONHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLJSONHelper.xcconfig; sourceTree = "<group>"; };
+		CFD223E5041D93F8F857D3EEF0A734B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA026242BA01EB77792614192A9D9D5A /* JLJSONHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLJSONHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50792AE70B4B6E33E8B1C6D5A1565DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D93BCC84348237A2499DFE232CB0708 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E155F8A257873E40D13FC60C0584437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DD321262EBA80157592AF16BEFE841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777820A56130BB196841162F83BCDDAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13C336F7F5C1F75092BC8A3C8A6FE87C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3CBF0D5B97670418732D377CC7C46481 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		1FDD38F9A76345D0B6F7A2515F828C44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55DB5EB89F3F83A54B79242D07D6926C /* JLJSONHelper.bundle */,
+				DA026242BA01EB77792614192A9D9D5A /* JLJSONHelper.framework */,
+				1C3056B73651E24DA5CB03C410542A98 /* Pods_JLJSONHelper_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B7092AF8B8FE53967BE58D92B999503 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE8680109B502A108A993FCC8399A4E2 /* Pods-JLJSONHelper_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2CC2BF5EA57813491602B67A5A2FBAE4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFD223E5041D93F8F857D3EEF0A734B3 /* Info.plist */,
+				C065B2A14FD459F3478E2003F496966D /* JLJSONHelper.modulemap */,
+				C1559F531BAB6C9E726BCC5042AAA5CF /* JLJSONHelper.xcconfig */,
+				55AAAE5EC3F30207DD9BCBAA8137D367 /* JLJSONHelper-dummy.m */,
+				35C6D327A89D1F16006E4CA80D47A698 /* JLJSONHelper-prefix.pch */,
+				938641F2BCEB4962DB7CBBCECD7D0851 /* JLJSONHelper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JLJSONHelper";
+			sourceTree = "<group>";
+		};
+		3CBF0D5B97670418732D377CC7C46481 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				64BDBE4B1BE726F100C0FA39 /* JLJSONHelper.h */,
+				64BDBE4C1BE726F100C0FA39 /* JLJSONHelper.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		698CE885A9E4C1C2613D1296D6DCB0ED /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				961745194D60493384A03DF116302D86 /* JLJSONHelper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				698CE885A9E4C1C2613D1296D6DCB0ED /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1FDD38F9A76345D0B6F7A2515F828C44 /* Products */,
+				2B7092AF8B8FE53967BE58D92B999503 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		961745194D60493384A03DF116302D86 /* JLJSONHelper */ = {
+			isa = PBXGroup;
+			children = (
+				13C336F7F5C1F75092BC8A3C8A6FE87C /* Pod */,
+				2CC2BF5EA57813491602B67A5A2FBAE4 /* Support Files */,
+			);
+			name = JLJSONHelper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE8680109B502A108A993FCC8399A4E2 /* Pods-JLJSONHelper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				55DA4ABA64C63A700B99C62E67E9CC80 /* Info.plist */,
+				490EB97C99D5B7ADEDC1D874C3B3F4AC /* Pods-JLJSONHelper_Tests.modulemap */,
+				B1FEF220A30CCB7B8CF708B5B78D4305 /* Pods-JLJSONHelper_Tests-acknowledgements.markdown */,
+				33147D4B1CB8AF85877B660663088007 /* Pods-JLJSONHelper_Tests-acknowledgements.plist */,
+				B6270118DF3C3528EF54E5F19D5403A2 /* Pods-JLJSONHelper_Tests-dummy.m */,
+				B8CCD8CA80D56F86D0EF595DD7D0F11C /* Pods-JLJSONHelper_Tests-frameworks.sh */,
+				57710DA740519A2BA0E0A9456F810153 /* Pods-JLJSONHelper_Tests-resources.sh */,
+				89FEF2FC110458E7C9C58B08A38CF348 /* Pods-JLJSONHelper_Tests-umbrella.h */,
+				6644F8250B94C33A69C96EAFEA6E5C88 /* Pods-JLJSONHelper_Tests.debug.xcconfig */,
+				206F1E0D159A2C8A6CFB4C0803FEB28C /* Pods-JLJSONHelper_Tests.release.xcconfig */,
+			);
+			name = "Pods-JLJSONHelper_Tests";
+			path = "Target Support Files/Pods-JLJSONHelper_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A20E9D7FE58C0DDA072E366D1DA86F21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BDBE4D1BE726F100C0FA39 /* JLJSONHelper.h in Headers */,
+				3B1B43BCDBC58397D3C0B86B4EC9EFE7 /* JLJSONHelper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA0FA9FE9A37E52FA1E3AE9998FE688 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69B9CF11FC2E1DB1F21406D3E5F0E12 /* Pods-JLJSONHelper_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9A7BA8285B4085EC9E8B05660FEF92D4 /* JLJSONHelper-JLJSONHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D64E22DC03CE423523CD5F347829794 /* Build configuration list for PBXNativeTarget "JLJSONHelper-JLJSONHelper" */;
+			buildPhases = (
+				700ACD4D4623F4A5F1203AD7CAE1B903 /* Sources */,
+				5E155F8A257873E40D13FC60C0584437 /* Frameworks */,
+				C3DE86A123EDE9CB08777B496684A94C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JLJSONHelper-JLJSONHelper";
+			productName = "JLJSONHelper-JLJSONHelper";
+			productReference = 55DB5EB89F3F83A54B79242D07D6926C /* JLJSONHelper.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E12B3354B76CD43843F7A74AF2A2DCF9 /* JLJSONHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C2A68C8690744A4DD6AE6E1F766C42 /* Build configuration list for PBXNativeTarget "JLJSONHelper" */;
+			buildPhases = (
+				2ABAA6C638729957638F7091F3CF121E /* Sources */,
+				50792AE70B4B6E33E8B1C6D5A1565DB4 /* Frameworks */,
+				67459EA669E28CF255F2E2DB32D7D64A /* Resources */,
+				A20E9D7FE58C0DDA072E366D1DA86F21 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D16E420F1CEBFC34D1CF8A22D58891B0 /* PBXTargetDependency */,
+			);
+			name = JLJSONHelper;
+			productName = JLJSONHelper;
+			productReference = DA026242BA01EB77792614192A9D9D5A /* JLJSONHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC561A2300D20BC13480F9A4319E57A3 /* Pods-JLJSONHelper_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33825C5E8244349E294F3E618E2A6187 /* Build configuration list for PBXNativeTarget "Pods-JLJSONHelper_Tests" */;
+			buildPhases = (
+				CABA76D714E7E53BD83E11AEC1162855 /* Sources */,
+				65DD321262EBA80157592AF16BEFE841 /* Frameworks */,
+				ABA0FA9FE9A37E52FA1E3AE9998FE688 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08853E30A1B47635ABA5400006520521 /* PBXTargetDependency */,
+			);
+			name = "Pods-JLJSONHelper_Tests";
+			productName = "Pods-JLJSONHelper_Tests";
+			productReference = 1C3056B73651E24DA5CB03C410542A98 /* Pods_JLJSONHelper_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1FDD38F9A76345D0B6F7A2515F828C44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E12B3354B76CD43843F7A74AF2A2DCF9 /* JLJSONHelper */,
+				9A7BA8285B4085EC9E8B05660FEF92D4 /* JLJSONHelper-JLJSONHelper */,
+				EC561A2300D20BC13480F9A4319E57A3 /* Pods-JLJSONHelper_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67459EA669E28CF255F2E2DB32D7D64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F75520246AC6DA1FA53482DC0F8C4F /* JLJSONHelper.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DE86A123EDE9CB08777B496684A94C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ABAA6C638729957638F7091F3CF121E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2DD47CCCEAFBBFD10F24D5CC57765AB /* JLJSONHelper-dummy.m in Sources */,
+				64BDBE4E1BE726F100C0FA39 /* JLJSONHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700ACD4D4623F4A5F1203AD7CAE1B903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABA76D714E7E53BD83E11AEC1162855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B1B5F5CB685EF7F83EB5E67E79FF51 /* Pods-JLJSONHelper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08853E30A1B47635ABA5400006520521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLJSONHelper;
+			target = E12B3354B76CD43843F7A74AF2A2DCF9 /* JLJSONHelper */;
+			targetProxy = 592C0678F2F7F96BAD3E64F834201292 /* PBXContainerItemProxy */;
+		};
+		D16E420F1CEBFC34D1CF8A22D58891B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JLJSONHelper-JLJSONHelper";
+			target = 9A7BA8285B4085EC9E8B05660FEF92D4 /* JLJSONHelper-JLJSONHelper */;
+			targetProxy = B2F2CB3961F3A0972943C559AD77697A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1226F650A9B8F76047B2CEE23B70DDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206F1E0D159A2C8A6CFB4C0803FEB28C /* Pods-JLJSONHelper_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLJSONHelper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLJSONHelper_Tests/Pods-JLJSONHelper_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JLJSONHelper_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AB0B1651BD91D775C5F6768FBD27D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1559F531BAB6C9E726BCC5042AAA5CF /* JLJSONHelper.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JLJSONHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9EB54B7241F44442CFE1DE2197AD9A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1559F531BAB6C9E726BCC5042AAA5CF /* JLJSONHelper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLJSONHelper/JLJSONHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLJSONHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLJSONHelper/JLJSONHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JLJSONHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA3E2BF489E4593E3DC240A96DA851BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1559F531BAB6C9E726BCC5042AAA5CF /* JLJSONHelper.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JLJSONHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B8F6F191BA99CBE14AD6B8EA9C588F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6644F8250B94C33A69C96EAFEA6E5C88 /* Pods-JLJSONHelper_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLJSONHelper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLJSONHelper_Tests/Pods-JLJSONHelper_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JLJSONHelper_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE5479ADB371A1D3E9A4FE9F2F0FA602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1559F531BAB6C9E726BCC5042AAA5CF /* JLJSONHelper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLJSONHelper/JLJSONHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLJSONHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLJSONHelper/JLJSONHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JLJSONHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20C2A68C8690744A4DD6AE6E1F766C42 /* Build configuration list for PBXNativeTarget "JLJSONHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5479ADB371A1D3E9A4FE9F2F0FA602 /* Debug */,
+				9EB54B7241F44442CFE1DE2197AD9A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D64E22DC03CE423523CD5F347829794 /* Build configuration list for PBXNativeTarget "JLJSONHelper-JLJSONHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3E2BF489E4593E3DC240A96DA851BE /* Debug */,
+				7AB0B1651BD91D775C5F6768FBD27D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33825C5E8244349E294F3E618E2A6187 /* Build configuration list for PBXNativeTarget "Pods-JLJSONHelper_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F6F191BA99CBE14AD6B8EA9C588F19 /* Debug */,
+				1226F650A9B8F76047B2CEE23B70DDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

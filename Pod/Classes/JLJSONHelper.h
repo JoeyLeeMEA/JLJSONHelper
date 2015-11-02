@@ -26,5 +26,9 @@
  @abstract JSON Object to String (Pretty printed string)
  */
 + (NSString *)stringPrettyPrintedFromJSONObject:(id)json;
+/*!
+ @abstract JSON Object to String (Pretty printed string)
+ */
++ (NSString *)stringPrettyPrintedFromString:(NSString *)jsonString;
 
 @end

@@ -1,0 +1,14 @@
+PODS:
+  - JLJSONHelper (0.1.0)
+
+DEPENDENCIES:
+  - JLJSONHelper (from `../`)
+
+EXTERNAL SOURCES:
+  JLJSONHelper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JLJSONHelper: f58ecee2ff0b9ef6abaf231534742d3f130f9834
+
+COCOAPODS: 0.39.0
