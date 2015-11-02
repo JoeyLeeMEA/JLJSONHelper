@@ -22,7 +22,7 @@ pod "JLJSONHelper"
 
 ## Author
 
-Joey L., slarin@gmail.com
+Joey L.
 
 ## License
 
