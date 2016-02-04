@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JLJSONHelper"
-  s.version          = "0.1.1"
+  s.version          = "0.2.0"
   s.summary          = "a simple helper class for JSON management."
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/buhikon/JLJSONHelper.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
